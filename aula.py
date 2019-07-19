@@ -44,10 +44,7 @@
 # print(random.shuffle(nomes))
 
 
-
 # 4     
-
-
 # nomes_feminino=["ana","vitoria", "paula"]
 # nomes_masculino=["rafael""gabriel", "joao"]
 
@@ -112,17 +109,18 @@
 #     return lista[0], lista[1]
     
 # separar_nome("wagner rafael")
+# """Funçao somar usando args."""
 
-def somar(*args):
-    total = 0
-    for valor in args:
-        total+= valor
-    print(total)
-somar(1, 2)
+# def somar(*args):
+#     """Funçao de soma."""
+#     total = 0
+#     for valor in args:
+#         total += valor
+#     print(total)
+# somar(1, 2)
 
 # def media(nome, *notas):
 #     total = 0
 #     for nota in notas:
 #         total += nota
 #     print(total)
-
